@@ -1,0 +1,224 @@
+.payment{
+   margin: 100px auto;
+    .form{
+        margin:40px auto;
+        .headTitle{
+            color: #333e48;
+            margin-bottom: 20px;
+        }
+        .links{
+            margin-bottom:20px;
+            span{
+                color: #878787;
+                font-size:14px;
+                a{
+                    color:#f00;
+                    transition: all 0.7s ease;
+                    &:hover{
+                       opacity: 0.8;
+                    }
+                }
+            }
+            .info{
+                color: #333e48;
+            }
+            i{
+                display: block;
+                margin:0 5px;
+                font-size:12px;
+                color: #333e48;
+                transform: rotate(90deg);
+            }
+        }
+        form{
+            .first_title{
+                justify-content: space-between;
+                align-items: center;
+                margin:20px 0;
+                p{
+                    font-size:14px;
+                    margin:0;
+                    color: #878787;
+                    a{
+                        text-decoration:underline !important;
+                        color: #f00;
+                    }
+                }
+            }
+            strong{
+                display:block;
+                font: {
+                    size:18px;
+                    weight:700;
+                }
+                color: #333e48;
+            }
+            .shipping{
+                margin:15px 0 0 0;
+            }
+            input{
+                margin:15px 0;
+            }
+            .M-right{
+                margin-right: 10px;
+            }
+            input[type='email']{
+                margin-bottom:15px;
+            }
+            input[type='text'], input[type='email'] , select{
+                &:focus{
+                    box-shadow:0 3px 5px #f00;
+                    border:1px solid #f00;
+                }
+            }
+            input[type='checkbox']{
+                cursor: pointer;
+                accent-color: #f00;
+            }
+            label{
+                margin-left:7px;
+                color:#333e48;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            span{
+                label{
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                    font-size: 12px;
+                    color: #878787;
+                }
+                select{
+                    padding:10px;
+                    border: 1px solid #dee2e6;
+                    border-radius: 5px;
+                    margin-bottom: 15px;
+                    color:#333e48;
+                }
+            }
+            .end-form{
+                a{
+                    display: flex;
+                    color: #f00;
+                    transition:all 0.7s ease;
+                    i{
+                        display: block;
+                        margin-right:5px;
+                        transform: rotate(-90deg);
+                    }
+                    &:hover{
+                        opacity:0.7;
+                    }
+                }
+                input[type='submit']{
+                    padding: 15px;
+
+                    background:#f00;
+                    transition:all 0.7s ease;
+                    &:hover{
+                        background: #333e48;
+                        color:#fff;
+                    }
+                }
+            }
+        }
+        .check_line{
+            height: 1px;
+            margin: 25px 0;
+            background: #dddddd;
+        }
+        .copyRight{
+            font-size:14px;
+            color: #878787;
+        }
+    }
+    .child{
+        margin:40px auto;
+        height:100%;
+        border: 1px solid #dddddd;
+        border-radius: 10px;
+        .child_all_items{
+            width: 100%;
+            height: 200px;
+            overflow: auto;
+            .child_item{
+                padding:10px 20px;
+                width: 100%;
+                .item_img{
+                    margin:15px 0;
+                    position: relative;
+                    .image_box{
+                        display: block;
+                        position: relative;
+                        img{
+                            width: 70px;
+                            height: 70px;
+                        }
+                        .title-num{
+                            background: #333e48;
+                            opacity: 0.7;
+                            width: 20px;
+                            height: 20px;
+                            position: absolute;
+                            top: -5px;
+                            right: -10px;
+                            .num{
+                                color:#fff;
+                            }
+                        }
+                    }
+                    .cost{
+                        font-weight: 700;
+                        color: #333e48;
+                    }
+                }
+            }
+        }
+        form{
+            padding:0 20px;
+            margin:20px 0;
+            input[type='submit']{
+                background:#dddddd;
+                padding: 10px;
+                color: #333e48;
+                margin-left: 10px;
+                transition: all 0.7s ease;
+                &:hover{
+                    background: #f00;
+                }
+            }
+            input[type='text']{
+                padding: 10px;
+                &:focus{
+                    box-shadow:0 3px 5px #f00;
+                    border: 1px solid #f00;
+                }
+            }
+        }
+        .details{
+            padding:0 20px;
+            margin:20px 0;
+            .data-info{
+                margin:10px 0;
+                color: #333e48;
+                .bold{
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+@media(max-width:992px){
+    .payment{
+        margin:0;
+    }
+}
+
+@media(max-width:540px){
+    .payment{
+        .box{
+            flex-direction: column-reverse;
+        }
+    }
+}

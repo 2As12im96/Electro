@@ -1,0 +1,40 @@
+.shipping{
+    margin:160px auto;
+    & h1{
+        margin:35px 0;
+        color:#333e48;
+    }
+    & h2{
+        color:#333e48; 
+    }
+    & .first_content{
+        padding-bottom: 30px;
+    }
+    & .term{
+        & p{
+            color:#333e48;
+            font-size:14px;
+        }
+    }
+    & .links{
+        & a{
+            color:#333e48;
+            transition: all 0.7s ease;
+            &:hover{
+                color: #f00;
+            }
+        }
+        & i{
+            margin:0 10px;
+            color: #333e48;
+            font-size:14px;
+            transform: rotate(90deg);
+        }
+    }
+}
+
+@media(max-width:992px){
+    .shipping{
+        margin:40px auto;
+    }
+}

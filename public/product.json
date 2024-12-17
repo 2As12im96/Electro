@@ -1,0 +1,330 @@
+[
+    {
+        "id":"cart_1",
+        "title":"Georgeous White Bag_1",
+        "imageURL":"image/shop/phone/bluePhone_48f88786-4ca9-4002-8017-6fce5fcc7af1.webp",
+        "cost":150.00,
+        "discount":199.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_2",
+        "title":"Georgeous White Bag_2",
+        "imageURL":"image/shop/phone/appipad_0fd5c979-79df-454c-9de4-6b7169c2af46.webp",
+        "cost":125.00,
+        "discount":165.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_3",
+        "title":"Georgeous White Bag_3",
+        "imageURL":"image/shop/computer/applap_8e603a17-ce85-4923-814c-84b8363cb209.webp",
+        "cost":215.00,
+        "discount":260.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_4",
+        "title":"Georgeous White Bag_4",
+        "imageURL":"image/shop/computer/apptablet_a5640c96-4b53-4c9c-b483-aa0f8a2c2e3c.webp",
+        "cost":200.00,
+        "discount":299.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_5",
+        "title":"Georgeous White Bag_5",
+        "imageURL":"image/shop/phone/ipadgreen.webp",
+        "cost":65.00,
+        "discount":99.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_6",
+        "title":"Georgeous White Bag_6",
+        "imageURL":"image/shop/phone/lgphone.webp",
+        "cost":90.00,
+        "discount":120.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_7",
+        "title":"Georgeous White Bag_7",
+        "imageURL":"image/shop/phone/goldPhone_2bec858b-2dc3-4655-afe1-1f53bc291e57.webp",
+        "cost":115.00,
+        "discount":145.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_8",
+        "title":"Georgeous White Bag_8",
+        "imageURL":"image/shop/computer/macpro.webp",
+        "cost":75.00,
+        "discount":100.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_9",
+        "title":"Georgeous White Bag_9",
+        "imageURL":"image/shop/phone/one1plus.webp",
+        "cost":50.00,
+        "discount":90.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_10",
+        "title":"Georgeous White Bag_10",
+        "imageURL":"image/shop/Headphone%20&%20Music/prodcut3_def0be50-14d1-49d3-bd8c-25b3b4dbdebe.webp",
+        "cost":250.00,
+        "discount":299.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_11",
+        "title":"Georgeous White Bag_11",
+        "imageURL":"image/shop/electronics/powerbank.webp",
+        "cost":15.00,
+        "discount":35.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_12",
+        "title":"Georgeous White Bag_12",
+        "imageURL":"image/shop/phone/redmi_003757a3-e9bc-49df-9e1e-156be4e53c1b.webp",
+        "cost":35.00,
+        "discount":60.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_13",
+        "title":"Georgeous White Bag_13",
+        "imageURL":"image/shop/Headphone%20&%20Music/prodcut5.webp",
+        "cost":110.00,
+        "discount":160.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_14",
+        "title":"Georgeous White Bag_14",
+        "imageURL":"image/shop/phone/redPhone.webp",
+        "cost":65.00,
+        "discount":100.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_15",
+        "title":"Georgeous White Bag_15",
+        "imageURL":"image/shop/phone/sam1.webp",
+        "cost":215.00,
+        "discount":250.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_16",
+        "title":"Georgeous White Bag_16",
+        "imageURL":"image/shop/games/slide-h7-1.webp",
+        "cost":75.00,
+        "discount":95.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_17",
+        "title":"Georgeous White Bag_17",
+        "imageURL":"image/shop/clock/watchsmart_990c1e8f-39b4-4b67-8b2d-68bcdc260006.webp",
+        "cost":25.00,
+        "discount":65.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_18",
+        "title":"Georgeous White Bag_18",
+        "imageURL":"image/shop/Headphone%20&%20Music/prodcut_1e254593-770f-476b-bb9e-4fdfc3a1d15c.webp",
+        "cost":45.00,
+        "discount":70.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_19",
+        "title":"Georgeous White Bag_19",
+        "imageURL":"image/shop/clock/watch.webp",
+        "cost":40.00,
+        "discount":65.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_20",
+        "title":"Georgeous White Bag_20",
+        "imageURL":"image/shop/camera/cam4k_ba7b179f-4c64-4bd3-ba2e-996c5e1385a2.webp",
+        "cost":12.00,
+        "discount":30.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_21",
+        "title":"Georgeous White Bag_21",
+        "imageURL":"image/shop/camera/camera2.webp",
+        "cost":180.00,
+        "discount":220.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_22",
+        "title":"Georgeous White Bag_22",
+        "imageURL":"image/shop/electronics/MP3%20Players.jpg",
+        "cost":120.00,
+        "discount":145.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_23",
+        "title":"Georgeous White Bag_23",
+        "imageURL":"image/shop/computer/PC%20Computers.jpg",
+        "cost":240.00,
+        "discount":266.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_24",
+        "title":"Georgeous White Bag_24",
+        "imageURL":"image/shop/phone/Phones%20&%20PDAs.jpg",
+        "cost":350.00,
+        "discount":399.99,
+        "quantity":1
+    },
+    {
+        "id":"cart_25",
+        "title":"Georgeous White Bag_25",
+        "imageURL":"image/shop/electronics/printer.webp",
+        "cost":160.00,
+        "discount":199.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_26",
+        "title":"Georgeous White Bag_26",
+        "imageURL":"image/shop/camera/Photography.jpg",
+        "cost":120.00,
+        "discount":155.84,
+        "quantity":1
+    },
+    {
+        "id":"cart_27",
+        "title":"Georgeous White Bag_27",
+        "imageURL":"image/shop/electronics/Mouse.jpg",
+        "cost":220.00,
+        "discount":255.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_28",
+        "title":"Georgeous White Bag_28",
+        "imageURL":"image/shop/computer/Mac%20Computers.jpg",
+        "cost":15.00,
+        "discount":36.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_29",
+        "title":"Georgeous White Bag_29",
+        "imageURL":"image/shop/computer/Keyboard.jpg",
+        "cost":415.00,
+        "discount":455.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_30",
+        "title":"Georgeous White Bag_30",
+        "imageURL":"image/shop/Headphone%20&%20Music/Headphone.jpg",
+        "cost":55.00,
+        "discount":84.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_31",
+        "title":"Georgeous White Bag_31",
+        "imageURL":"image/shop/games/Gaming.jpg",
+        "cost":33.00,
+        "discount":66.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_32",
+        "title":"Georgeous White Bag_32",
+        "imageURL":"image/shop/games/Eyewear.jpg",
+        "cost":300.00,
+        "discount":343.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_33",
+        "title":"Georgeous White Bag_33",
+        "imageURL":"image/shop/camera/Cameras.jpg",
+        "cost":37.00,
+        "discount":60.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_34",
+        "title":"Georgeous White Bag_34",
+        "imageURL":"image/shop/games/Gadgets.jpg",
+        "cost":60.00,
+        "discount":80.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_35",
+        "title":"Georgeous White Bag_35",
+        "imageURL":"image/shop/electronics/TV%20&%20Audio.jpg",
+        "cost":99.00,
+        "discount":130.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_36",
+        "title":"Georgeous White Bag_36",
+        "imageURL":"image/shop/electronics/Software.jpg",
+        "cost":400.00,
+        "discount":422.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_37",
+        "title":"Georgeous White Bag_37",
+        "imageURL":"image/shop/computer/Ultrabooks.jpg",
+        "cost":18.99,
+        "discount":35.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_38",
+        "title":"Georgeous White Bag_38",
+        "imageURL":"image/shop/clock/Watches.jpg",
+        "cost":170.00,
+        "discount":199.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_39",
+        "title":"Georgeous White Bag_39",
+        "imageURL":"image/shop/electronics/All%20in%20One.jpg",
+        "cost":55.95,
+        "discount":99.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_40",
+        "title":"Georgeous White Bag_40",
+        "imageURL":"image/Home/Brands/brand-2-1.webp",
+        "cost":184.99,
+        "discount":199.00,
+        "quantity":1
+    },
+    {
+        "id":"cart_41",
+        "title":"Georgeous White Bag_41",
+        "imageURL":"image/shop/phone/iapdlap_efc1b0e6-fed3-40ae-924c-04b06cb4a8aa.webp",
+        "cost":85.00,
+        "discount":129.00,
+        "quantity":1
+    }
+]

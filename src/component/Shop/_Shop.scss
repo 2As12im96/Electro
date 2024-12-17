@@ -1,0 +1,58 @@
+.shop{
+    margin:160px auto;
+    .links{
+        margin-bottom: 40px;
+        span{
+            font-size:14px;
+            color:#333e48;
+            transition: all 0.7s ease;
+            a{
+                color: #333e48;
+                transition: all 0.7s ease;
+            }
+            a:hover{
+                color: #f00;
+            }
+        }
+        i{
+            transform:rotate(90deg);
+            font-size:14px;
+            color:#333e48;
+            margin:0 10px;    
+        }
+    }
+    .parent{
+        h1{
+            color: #333e48;
+            margin-bottom: 40px;
+        }
+        .child{
+           padding:10px 10px 40px;
+            cursor:pointer;
+            transition:all 0.7s ease;
+            & strong{
+                color: #333e48;
+                font: {
+                    size:20px;
+                    weight:500;
+                }
+                transition: all 0.7s ease;
+            }
+            &:hover{
+                box-shadow:0 3px 5px #333e48;
+            }
+            &:hover strong{
+                color: #f00;
+            }
+        }
+        span{
+            border-bottom: 1px solid #dddddd;
+        }
+    }
+}
+
+@media(max-width:992px){
+    .shop{
+        margin:40px auto;
+    }
+}

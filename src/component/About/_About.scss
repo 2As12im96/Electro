@@ -1,0 +1,128 @@
+.About{
+    .About_bg{
+        background:url(../../../public/image/About/au-banner_1280x.webp) no-repeat center;
+        width: 100%;
+        height: 90vh;
+        background-size:cover;
+        align-items: center;
+        .About_bg_info{
+           & h2{
+                color:#333e48;
+           }
+           & p{
+                color:#333e48;
+                
+                font-size:18px;
+                & span{
+                    color: #333e48;
+                }
+           }
+        }
+    }
+    .About_blogs{
+        margin: 100px 0;
+        a {
+            transition: all 0.7s ease;
+            .blog{
+                .blog_img{
+                    width:300px;
+                    height: auto;
+                    overflow: hidden;
+                    & img{
+                        opacity:0.7;
+                        transition: all 0.7s ease;
+                    }
+                }
+            }
+            &:hover .blog_img img{
+                opacity: 1;
+                transform: scale(1.1);
+            }
+            .blog_info{
+                margin:10px 0;
+                color:#333e48;
+            }
+        }
+    }
+    .About_persons{
+        padding:90px 0 70px 0;
+        background:#f5f5f5;
+        .person{
+            & .person_info{
+                & h6{
+                    color:#333e48;
+                    margin:10px 0;
+                    transition: all 0.7s ease;
+                }
+                & p{
+                    color:#333e48;
+                }
+            }
+            &:hover .person_info h6{
+                color:#f00;
+            }
+        }
+    }
+    .About_information{
+        padding:70px 0;
+        .child_info{
+            .first_ask , .last_ask{
+                padding:15px 0;
+                h6 , p{
+                    color:#333e48;
+                }
+                p{
+                    font-size:14px;
+                }
+            }
+            .lines{
+                padding:15px;
+                .plus{
+                    width:40px;
+                    height:40px;
+                    align-items: center;
+                    border:1px solid #dddddd;
+                    color: #878787;
+                    margin:0;
+                    i{
+                        color:#333e48;
+                    }
+                }
+                span{
+                    margin:5px 0 0 10px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:540px){
+    .col-sm-6{
+        width:50% !important;
+    }
+    .About{
+        .About_information{
+            .child_info{
+                .lines{
+                    padding:15px 0;
+                }
+            }
+        }
+    }
+}
+@media(max-width:992px){
+    .About{
+        .About_bg{
+            height: 60vh;
+        }
+        .About_blogs{
+            a{
+                .blog{
+                    .blog_img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

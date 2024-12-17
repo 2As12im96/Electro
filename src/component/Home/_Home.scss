@@ -1,0 +1,312 @@
+.bg_info{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index:998;
+    background:#f2efe9;
+    width: 100%;
+    height: 85vh;
+    & .bg-details{
+        position:relative;
+        & .bg_text{
+            position: absolute;
+            top: 0;
+            left: -12%;
+           & span{
+            display: block;
+            color:#f00;
+            font: {
+                size:16px;
+                weight:700;
+            }
+            letter-spacing:1px;
+           }
+           & strong{
+            font: {
+                size:48px;
+            }
+            color:#333e48;
+            & p{
+                font-weight:400;
+            }
+           }
+           & .small{
+                display:inline;
+                margin-left:10px;
+                color:#333e48;
+           }
+           & a{
+                justify-content: center;
+                align-items: center;
+                background:#f00;
+                color:#333e48;
+                font-weight:700;
+                letter-spacing: 1px;
+                width:13rem;
+                padding:15px;
+                margin:10px 0;
+                transition: all 0.7s ease;
+                &:hover{
+                    background:#333e48;
+                    color:#fff;
+                }
+           }
+        }
+    }
+}
+.component{
+    padding:130px 0;
+    & a{  
+        & .component_child{
+            background:#f2efe9;
+            padding: 50px 15px 10px 15px;
+            text-align: center;
+            cursor: pointer;
+            position: relative;
+            border-radius:15px;
+            transition:all 0.7s ease;
+            & img{
+                margin-top: -120px;
+            }
+            & .line{
+                height: 1px;
+                width:100%;
+                background:#333e48;
+            }
+            & h6{
+                color:#333e48;
+                font-weight:700;
+                padding-top: 10px;
+            }
+            & .items{
+                color:#333e48;
+                padding-bottom:10px;
+                transition:all 0.7s ease;
+            }
+            &:hover .items{
+                color:#f00;
+            }
+        }
+    }
+}
+.products{
+    margin:50px 0;
+    & h3{
+        color:#333e48;
+    }
+    & .progress{
+        position: relative;
+        background:#333e48;
+        height:2px;
+        margin:20px 0;
+        & .line{
+            background:#f00;
+            position: absolute;
+            top: 0;
+            width:30%;
+            height: 100%;
+        }
+    }
+    .card{
+        padding:10px;
+        border:none;
+        transition:all 0.7s ease;
+        &:hover{
+            box-shadow:0 5px 8px #878787;
+        }
+        .card_title{
+            span{
+                font-size: 12px;
+                color: #6f6b80;
+                transition: all 0.7s ease;
+                &:hover{
+                    color:#f00;
+                }
+            }
+            p{
+                color: #0062bd;
+                font: {
+                    size:16px;
+                    weight:700;
+                }
+                margin: 10px 0;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: block;
+                transition: all 0.7s ease;
+                &:hover{
+                    color:#f00;
+                }
+            }
+        }
+        .card_img{
+            padding:20px 0;
+            cursor:pointer;
+        }
+        .card_sallery{
+            justify-content: space-between;
+            align-items: center;
+            .sallery_num{
+                .cost{
+                    color: #dc3545;
+                    font-size: 20px;
+                }
+                .discount{
+                    font-size: 14px;
+                    text-decoration: line-through;
+                    color: #6f6b80;
+                }
+            }
+            .sallery_icon{
+                align-items: center;
+                width:40px;
+                height: 40px;
+                background:#f00;
+                color:#fff;
+                cursor: pointer;
+                & svg{
+                    color: currentColor;
+                    & path{
+                        fill: currentColor;
+                    }
+                }
+            }
+        }
+        .card_line{
+            background:#333e48;
+            height: 2px;
+            width: 100%;
+            margin: 15px 0;
+        }
+        .card_icons{
+            justify-content: space-between;
+            align-items: center;
+            & .icon_fn{
+                color:#333e48;
+                cursor: pointer;
+                transition: all 0.7s ease;
+                &:hover{
+                    color:#f00;
+                }
+            }
+        }
+    }
+}
+.Banners{
+    & img{
+        object-fit:cover;
+        display:block;
+        margin:20px 0;
+        transition: all 0.7s ease;
+        &:hover{
+            opacity:0.5;
+        }
+    }
+    // & .first{
+    //     height:150px !important;
+    // }
+}
+.topics{
+    & .progress{
+        position: relative;
+        background:#333e48;
+        height:2px;
+        & .line{
+            background:#f00;
+            position: absolute;
+            top: 0;
+            width:30%;
+            height: 100%;
+        }
+    }
+    & .topic{
+        border-radius: 20px;
+        margin:25px 0;
+        padding:20px;
+        color:#333e48;
+        transition:all 0.7s ease;
+        &:hover{
+            box-shadow:0 3px 5px #333e48;
+        }
+        &:hover h4{
+            color:#f00;
+        }
+        & h4{
+            transition: all 0.7s ease;
+        }
+    }
+}
+.Brands{
+    padding:50px 0;
+    & h3{
+        color:#333e48;
+    }
+    & .progress{
+        position: relative;
+        background:#333e48;
+        height:2px;
+        margin:20px 0;
+        & .line{
+            background:#f00;
+            position: absolute;
+            top: 0;
+            width:30%;
+            height: 100%;
+        }
+    }
+    & a{
+        display:block;
+        background:#f2efe9;
+    } 
+    .brands_child{
+        position:relative;
+        padding:40px;
+        margin: 30px;
+        & p{
+            color:#878787;
+        }
+        & .last_img{
+            position: absolute;
+            right: -45px;
+            bottom:-50px;
+        }
+    }
+}
+
+@media(max-width:540px){
+    .topics{
+        & .topic{
+            padding:10px;
+        }
+    }
+    .products{
+        .col-sm-6{
+            width:50%;
+        }
+    }
+}
+
+@media(max-width:992px){
+    .bg_info{
+        display:none;
+    }
+    .component{
+        padding:50px 0;
+        & a{
+            margin:50px 0;
+        }
+    }
+    .Banners{
+        & a{
+            & .fully{
+                width:120%;
+            }
+        }
+    }
+}
+
+
+
+
